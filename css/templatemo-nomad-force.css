@@ -21,14 +21,14 @@
 
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                rgb(255, 193, 7);
-  --link-highlight:               rgba(255, 193, 7, 0.637);
+  --primary-color:                rgba(255, 193, 7, 0.911);
+  --link-highlight:               rgba(255, 193, 7, 0.925);
   --section-bg-color:             #000000;
   --dark-color:                   #0c0c0c;
   --grey-color:                   #fcfeff;
   --text-secondary-white-color:   rgba(255, 255, 255, 0.98);
   --title-color:                  #ffffff;
-  --p-color:                      #ffffff;
+  --p-color:                      #ffffffd2;
 
   --body-font-family:           'Noto Sans JP', sans-serif;
 
@@ -72,8 +72,6 @@ h6 {
   color: var(--white-color);
   line-height: inherit;  
   transition: 0.5s;
-
-
 }
 
 
@@ -765,4 +763,12 @@ a {
 
 ::-webkit-scrollbar {
   border-radius: 10px;
+}
+
+li p {
+  font-size: 15px;
+}
+hr {
+  color:white; 
+  margin: auto; 
 }

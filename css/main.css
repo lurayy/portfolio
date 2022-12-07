@@ -1069,3 +1069,7 @@ hr {
   color:#aaa;
   margin-bottom:0;
 }
+
+.btn:hover {
+  color: yellow;
+}
